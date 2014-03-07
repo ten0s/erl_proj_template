@@ -21,6 +21,7 @@ cp src/gen_server_tpl.erl $trg_path/src/
 find . -type f ! -path ./RUN_ME_FIRST -exec sed -i "s/{{PROJ_NAME}}/$proj_name/g" {} \;
 
 rm ./RUN_ME_FIRST
+rm -rf .git
 
 popd
 
