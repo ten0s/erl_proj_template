@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [[ $# -ne 2 ]]; then
+	echo "{{PROJ_NAME}} <params>"
+	exit 1
+fi
+
+./bin/{{PROJ_NAME}} script "$1" "$2"
