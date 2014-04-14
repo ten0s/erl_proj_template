@@ -1,6 +1,6 @@
 ## Prerequisites
 
-In order to compile and run the **{{PROJ_NAME}}** utility you need to have [Erlang](http://www.erlang.org/), and GNU make installed.
+In order to compile and run the **{{PROJ_NAME}}** utility you need to have [Erlang](http://www.erlang.org/) and GNU make installed.
 
 ## Compilation
 
