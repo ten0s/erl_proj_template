@@ -16,8 +16,6 @@ for src_file in `find . -name '*{{PROJ_NAME}}*'`; do
     mv $src_file $dst_file
 done
 
-cp src/gen_server_tpl.erl $trg_path/src/
-
 find . -type f ! -path ./RUN_ME_FIRST -exec sed -i "s/{{PROJ_NAME}}/$proj_name/g" {} \;
 
 rm ./RUN_ME_FIRST
