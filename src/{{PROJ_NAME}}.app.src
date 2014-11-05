@@ -1,6 +1,6 @@
 {application, {{PROJ_NAME}}, [
     {description, "{{PROJ_NAME}}"},
-    {vsn, "0.0.1"},
+    {vsn, "git"}, %% remove quotes when once under git
     {registered, []},
     {applications, [
         kernel,
